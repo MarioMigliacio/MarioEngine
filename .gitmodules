@@ -1,0 +1,3 @@
+[submodule "MarioEngine/vendor/spdlog"]
+	path = MarioEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
