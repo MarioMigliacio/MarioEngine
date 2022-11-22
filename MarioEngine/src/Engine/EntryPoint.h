@@ -6,7 +6,11 @@ extern MarioEngine::Application* MarioEngine::CreateApplication();
 
 int main(int argc, char** argv)
 {
-    printf("MarioEngine up and running.\n");
+    MarioEngine::Log::Init();
+    MARIOENGINE_CORE_WARN("Mario Engine up and running!");
+    int num = 10;
+    MARIOENGINE_CLIENT_INFO("Hello mario app! Variable: {0}", num);
+
     auto app = MarioEngine::CreateApplication();
     app->Run();
     delete app;
