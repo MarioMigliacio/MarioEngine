@@ -3,9 +3,9 @@
 // FOR use by MarioEngine applications
 
 #include <stdio.h>
-#include "Engine/Application.h"
-#include "Engine/Log.h"
+#include "MarioEngine/Application.h"
+#include "MarioEngine/Log.h"
 
 // ------- Entry Point -------
-#include "Engine/EntryPoint.h"
+#include "MarioEngine/EntryPoint.h"
 // ---------------------------

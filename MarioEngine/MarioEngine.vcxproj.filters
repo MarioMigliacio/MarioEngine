@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Engine\Core.h">
+    <ClInclude Include="src\MarioEngine\Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Application.h">
+    <ClInclude Include="src\MarioEngine\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MarioEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\EntryPoint.h">
+    <ClInclude Include="src\MarioEngine\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Log.h">
+    <ClInclude Include="src\MarioEngine\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Engine\Application.cpp">
+    <ClCompile Include="src\MarioEngine\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Engine\Log.cpp">
+    <ClCompile Include="src\MarioEngine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
