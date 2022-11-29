@@ -4,6 +4,9 @@
     <Filter Include="MarioEngine">
       <UniqueIdentifier>{73072D60-DFBC-A555-68B1-9F2CD4659C59}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MarioEngine\Events">
+      <UniqueIdentifier>{F7736785-E357-28DB-4CB8-222E38BB125D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MarioEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\MarioEngine\EntryPoint.h">
       <Filter>MarioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\Events\ApplicationEvent.h">
+      <Filter>MarioEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\Events\Event.h">
+      <Filter>MarioEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\Events\KeyEvent.h">
+      <Filter>MarioEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\Events\MouseEvent.h">
+      <Filter>MarioEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\MarioEngine\Log.h">
       <Filter>MarioEngine</Filter>
