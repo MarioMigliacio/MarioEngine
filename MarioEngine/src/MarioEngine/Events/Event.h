@@ -1,8 +1,7 @@
 #pragma once
 
+#include "mepch.h"
 #include "MarioEngine/Core.h"
-
-#include <functional>
 
 namespace MarioEngine {
 
