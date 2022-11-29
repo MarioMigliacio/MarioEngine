@@ -34,6 +34,7 @@
     <ClInclude Include="src\MarioEngine\Log.h">
       <Filter>MarioEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\mepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MarioEngine\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\MarioEngine\Log.cpp">
       <Filter>MarioEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\mepch.cpp" />
   </ItemGroup>
 </Project>

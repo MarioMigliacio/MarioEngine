@@ -2,7 +2,6 @@
 
 #include "MarioEngine/Core.h"
 
-#include <string>
 #include <functional>
 
 namespace MarioEngine {

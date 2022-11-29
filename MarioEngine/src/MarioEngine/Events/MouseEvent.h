@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace MarioEngine {
 
     // mouse pressed and released events have a common shared mouse button attribute, abstract into MouseButtonEvent and inherit.

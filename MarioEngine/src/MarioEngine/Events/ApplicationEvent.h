@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace MarioEngine {
 
     class MARIOENGINE_API WindowCloseEvent : public Event

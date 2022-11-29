@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace MarioEngine {
 
     // keyboard pressed and released events have a common shared keycode attribute, abstract the keycode into KeyEvent and inherit.
