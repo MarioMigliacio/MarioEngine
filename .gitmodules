@@ -1,3 +1,6 @@
 [submodule "MarioEngine/vendor/spdlog"]
 	path = MarioEngine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "MarioEngine/vendor/GLFW"]
+	path = MarioEngine/vendor/GLFW
+	url = https://github.com/MarioMigliacio/glfw
