@@ -10,4 +10,12 @@
     #error MARIOENGINE only supports windows for now!
 #endif
 
+#ifdef MARIOENGINE_ENABLE_ASSERTS
+    #define MARIOENGINE_CLIENT_ASSERT(x, ...) { if(!(x)) { MARIOENGINE_CLIENT_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+    #define MARIOENGINE_CORE_ASSERT(x, ...) { if(!(x)) { MARIOENGINE_CORE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+#else
+    #define MARIOENGINE_CLIENT_ASSERT(x, ...)
+    #define MARIOENGINE_CORE_ASSERT(x, ...)
+#endif
+
 #define BIT(x) (1 << x)

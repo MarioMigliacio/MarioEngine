@@ -7,6 +7,12 @@
     <Filter Include="MarioEngine\Events">
       <UniqueIdentifier>{F7736785-E357-28DB-4CB8-222E38BB125D}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MarioEngine\Platform">
+      <UniqueIdentifier>{27553299-13E4-BB62-BC02-D05DA870CC08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioEngine\Platform\Windows">
+      <UniqueIdentifier>{6136BA41-4DF1-A9ED-F6A8-2238E242F47D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MarioEngine.h" />
@@ -34,6 +40,12 @@
     <ClInclude Include="src\MarioEngine\Log.h">
       <Filter>MarioEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\MarioEngine\Platform\Windows\WindowsWindow.h">
+      <Filter>MarioEngine\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\Window.h">
+      <Filter>MarioEngine</Filter>
+    </ClInclude>
     <ClInclude Include="src\mepch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +54,9 @@
     </ClCompile>
     <ClCompile Include="src\MarioEngine\Log.cpp">
       <Filter>MarioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MarioEngine\Platform\Windows\WindowsWindow.cpp">
+      <Filter>MarioEngine\Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\mepch.cpp" />
   </ItemGroup>

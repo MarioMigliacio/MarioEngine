@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "MarioEngine/Log.h"
+
 #ifdef MARIOENGINE_PLATFORM_WINDOWS
     #include <Windows.h>
 #endif

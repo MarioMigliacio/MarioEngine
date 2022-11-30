@@ -158,11 +158,14 @@
     <ClInclude Include="src\MarioEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\MarioEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\MarioEngine\Log.h" />
+    <ClInclude Include="src\MarioEngine\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\MarioEngine\Window.h" />
     <ClInclude Include="src\mepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MarioEngine\Application.cpp" />
     <ClCompile Include="src\MarioEngine\Log.cpp" />
+    <ClCompile Include="src\MarioEngine\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\mepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
