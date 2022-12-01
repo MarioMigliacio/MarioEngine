@@ -4,6 +4,9 @@
 
 #include "MarioEngine/Core.h"
 #include "MarioEngine/Events/Event.h"
+#include "MarioEngine/Events/KeyEvent.h"
+#include "MarioEngine/Events/MouseEvent.h"
+#include "MarioEngine/Events/ApplicationEvent.h"
 
 namespace MarioEngine {
 
