@@ -4,4 +4,4 @@
 [submodule "MarioEngine/vendor/GLFW"]
 	path = MarioEngine/vendor/GLFW
 	url = https://github.com/MarioMigliacio/glfw
-	ignore = dirty
+	ignore = all
