@@ -23,8 +23,8 @@ bld/
 [Bb]in-int/
 [Oo]bj/
 .vs/
-MarioEngine/vendor/GLFW/[Bb]in/
-MarioEngine/vendor/GLFW/[Bb]in-int/
+MarioEngine/vendor/GLFW/bin/
+MarioEngine/vendor/GLFW/bin-int/
 
 # Visual Studio 2015 cache/options directory
 .vs/
