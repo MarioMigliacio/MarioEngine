@@ -37,6 +37,12 @@
     <ClInclude Include="src\MarioEngine\Events\MouseEvent.h">
       <Filter>MarioEngine\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\MarioEngine\Layer.h">
+      <Filter>MarioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MarioEngine\LayerStack.h">
+      <Filter>MarioEngine</Filter>
+    </ClInclude>
     <ClInclude Include="src\MarioEngine\Log.h">
       <Filter>MarioEngine</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MarioEngine\Application.cpp">
+      <Filter>MarioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MarioEngine\Layer.cpp">
+      <Filter>MarioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MarioEngine\LayerStack.cpp">
       <Filter>MarioEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\MarioEngine\Log.cpp">
