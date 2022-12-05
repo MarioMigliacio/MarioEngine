@@ -10,6 +10,7 @@ public:
 
     void OnUpdate() override
     {
+        // this is very obnoxious, but serves to demonstrate that layer is responsive.
         MARIOENGINE_CLIENT_INFO("ExampleLayer::Update");
     }
 
